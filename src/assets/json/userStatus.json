@@ -1,0 +1,135 @@
+{
+    "DirectLoanType":[
+        {
+            "value":"1",
+            "label":"注册未认证"
+        },
+        {
+            "value": "2",
+            "label": "认证未借款",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "资料齐全"
+                },
+                {
+                    "value": "2",
+                    "label": "资料不齐全"
+                },
+                {
+                    "value": "3",
+                    "label": "借款未审核"
+                }
+            ]
+        },
+        {
+            "value":"3",
+            "label":"借款成功"
+        },
+        {
+            "value": "4",
+            "label": "借款被拒绝",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "单次关闭"
+                },
+                {
+                    "value": "2",
+                    "label": "永久关闭"
+                },
+                {
+                    "value": "3",
+                    "label": "关闭7天"
+                },
+                {
+                    "value": "4",
+                    "label": "关闭30天"
+                }
+            ]
+        }
+    ],
+    "CreditLoanType":[
+        {
+            "value":"1",
+            "label":"注册未认证"
+        },
+        {
+            "value": "2",
+            "label": "认证未授信",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "资料齐全"
+                },
+                {
+                    "value": "2",
+                    "label": "资料不齐全"
+                },
+                {
+                    "value": "3",
+                    "label": "授信未审核"
+                }
+            ]
+        },
+        {
+            "value": "3",
+            "label": "授信未借款",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "未申请借款"
+                },
+                {
+                    "value": "2",
+                    "label": "借款未审核"
+                }
+            ]
+        },
+        {
+            "value": "4",
+            "label": "授信被拒绝",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "永久关闭"
+                },
+                {
+                    "value": "2",
+                    "label": "关闭7天"
+                },
+                {
+                    "value": "3",
+                    "label": "关闭30天"
+                }
+            ]
+        },
+        {
+            "value":"5",
+            "label":"借款成功"
+        },
+        {
+            "value": "6",
+            "label": "借款被拒绝",
+            "children": [
+                {
+                    "value": "1",
+                    "label": "单次关闭"
+                },
+                {
+                    "value": "2",
+                    "label": "永久关闭"
+                },
+                {
+                    "value": "3",
+                    "label": "关闭7天"
+                },
+                {
+                    "value": "4",
+                    "label": "关闭30天"
+                }
+            ]
+        }
+    ]
+
+}
